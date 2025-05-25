@@ -1,3 +1,12 @@
+<script>
+function filterItems() {
+  const searchTerm = document.getElementById("search").value.toLowerCase();
+  const items = document.querySelectorAll("#item-list li");
+  items.forEach(item => {
+    item.style.display = item.textContent.toLowerCase().includes(searchTerm) ? "" : "none";
+  });
+}
+</script>
 ﻿const products = [
   { id: 1, name: "Apples", price: 2.5 },
   { id: 2, name: "Bananas", price: 1.2 },
