@@ -6,6 +6,15 @@
   { id: 4, name: "Bread", price: 2.0 },
   { id: 5,  name: "peanut butter", price: 4.2 },
   { id: 6,  name: "paneer", price: 2.6 },
+  { id: 7,  name:  "carrot", price: 1.6 },
+  { id: 8,  name:  "curd", price: 2.4 },
+  { id: 9,  name: "ghee", price: 4.6 },
+  { id: 10, name: "mango", price: 3.8 },
+  { id: 11, name: "cheese", price: 4.5 },
+  { id: 12, name: "eggs",  price: 4.3 },
+  { id: 13, name: "jam", price: 5.1 },
+  { id: 14, name: "tomato sauce", price: 5.4 },
+  { id: 15, name: "atta", price: 6.6 },
  ];
 let cart = [];
 
